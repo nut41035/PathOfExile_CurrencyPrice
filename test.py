@@ -143,13 +143,13 @@ if __name__ == "__main__":
     cv2.putText(img2, str(price_list.get('glyphic-fossil')), (87,297), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
 
     ##Caty
-    cv2.putText(img2, str(price_list.get('turbulent-catalystl')), (48,221), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
-    cv2.putText(img2, str(price_list.get('imbued-catalyst')), (124,221), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
-    cv2.putText(img2, str(price_list.get('abrasive-catalyst')), (235,221), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
-    cv2.putText(img2, str(price_list.get('tempering-catalyst')), (309,221), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
-    cv2.putText(img2, str(price_list.get('fertile-catalyst')), (383,221), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)    
-    cv2.putText(img2, str(price_list.get('prismatic-catalyst')), (494,221), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
-    cv2.putText(img2, str(price_list.get('intrinsic-catalyst')), (566,221), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
+    cv2.putText(img2, str(price_list.get('turbulent-catalystl')), (164,361), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
+    cv2.putText(img2, str(price_list.get('imbued-catalyst')), (225,361), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
+    cv2.putText(img2, str(price_list.get('abrasive-catalyst')), (274,294), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
+    cv2.putText(img2, str(price_list.get('tempering-catalyst')), (309,294), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
+    cv2.putText(img2, str(price_list.get('fertile-catalyst')), (383,294), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)    
+    cv2.putText(img2, str(price_list.get('prismatic-catalyst')), (394,361), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
+    cv2.putText(img2, str(price_list.get('intrinsic-catalyst')), (456,361), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
 
     ## Fragment
     cv2.putText(img, str(price_list.get('hydra')), (679,73), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
