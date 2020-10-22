@@ -244,4 +244,4 @@ if __name__ == "__main__":
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
     cv2.imwrite('/home/natsu/poe/' + 'final.png', img)
-    cv2.imwrite('/home/natsu/poe/' + 'final2.png', img)
+    cv2.imwrite('/home/natsu/poe/' + 'final2.png', img2)
